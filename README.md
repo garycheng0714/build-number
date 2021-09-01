@@ -1,3 +1,5 @@
+# Fork from https://github.com/einaregilsson/build-number
+
 # Update 2020-02-12
 
 GitHub has just introduced new environment variables, `GITHUB_RUN_ID` and `GITHUB_RUN_NUMBER` which are unique numbers for each workflow run, so you're probably better off using those than this GitHub action. 🙂 See https://help.github.com/en/actions/configuring-and-managing-workflows/using-environment-variables#default-environment-variables
