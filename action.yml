@@ -1,6 +1,6 @@
-name: 'Build Number Generator'
-description: 'Generate sequential build numbers for workflow runs'
-author: 'Einar Egilsson'
+name: 'Build Number Generator Without Check Max Number'
+description: 'Generate sequential build numbers for workflow runs fork from https://github.com/einaregilsson/build-number'
+author: 'Gary Cheng'
 runs:
   using: 'node12'
   main: 'main.js'
